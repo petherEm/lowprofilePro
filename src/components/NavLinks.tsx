@@ -8,7 +8,7 @@ export function NavLinks() {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
   let timeoutRef = useRef<number | null>(null)
 
-  let docUrl = process.env.NEXT_PUBLIC_DOC_URL
+  let docUrl = process.env.NEXT_PUBLIC_DOC_URL || '/'
 
   return [
     ['About', '/#features'],
