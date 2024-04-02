@@ -28,7 +28,6 @@ export function Logomark(props: React.ComponentPropsWithoutRef<'svg'>) {
       </g>
       <g
         id="SvgjsG5635"
-        featurekey="sloganFeature-0"
         transform="matrix(1.7235531020245636,0,0,1.7235531020245636,147.62115801149284,59.65868467526927)"
         fill="#000000"
       >
