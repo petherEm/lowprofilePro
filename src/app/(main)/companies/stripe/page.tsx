@@ -1,6 +1,3 @@
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
-import monokai from 'react-syntax-highlighter/dist/esm/styles/prism'
-
 import {
   CloudArrowUpIcon,
   LockClosedIcon,
@@ -184,14 +181,7 @@ export default function Stripe() {
           </div>
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-          <SyntaxHighlighter
-            language={'typescript'}
-            style={monokai}
-            wrapLines={true}
-            showInlineLineNumbers={true}
-          >
-            {myCode}
-          </SyntaxHighlighter>
+          hi
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">

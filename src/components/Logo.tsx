@@ -4,7 +4,7 @@ export function Logomark(props: React.ComponentPropsWithoutRef<'svg'>) {
       width="120"
       height="40"
       viewBox="0 0 387.6086956521739 94.64681133140125"
-      class="looka-1j8o68f"
+      className="looka-1j8o68f"
     >
       <defs id="SvgjsDefs5632"></defs>
       <g
