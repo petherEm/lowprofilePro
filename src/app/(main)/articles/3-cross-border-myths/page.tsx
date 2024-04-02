@@ -83,8 +83,8 @@ export default function Example() {
                 Modernizing Payment Systems: Addressing Traditional Limitations
               </h2>
               <p>
-                The evolution of Europe's financial systems introduced modern
-                payment mechanisms, transitioning from the traditional
+                The evolution of Europe&apos;s financial systems introduced
+                modern payment mechanisms, transitioning from the traditional
                 correspondent banking system that facilitated global
                 transactions through reciprocal accounts. Despite its
                 international reach, this system faced criticism for slow

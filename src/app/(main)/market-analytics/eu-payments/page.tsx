@@ -26,9 +26,10 @@ export default function EUPayments() {
           Latest developments in the EU Payments system
         </h1>
         <p className="mt-6 text-xl leading-8">
-          Europe's payment services industry is set to undergo a significant
-          transformation in 2024 with the adoption of the instant payments
-          legislative proposal by the European Commission. To make transfers{' '}
+          Europe&apos;s payment services industry is set to undergo a
+          significant transformation in 2024 with the adoption of the instant
+          payments legislative proposal by the European Commission. To make
+          transfers{' '}
           <span className="font-bold">faster, more secure and affordable,</span>{' '}
           the proposal requires all payment service providers offering regular
           euro credit transfers to offer instant payments, known as{' '}
@@ -54,18 +55,18 @@ export default function EUPayments() {
 
           <p>
             According to European Central Bank, the legislation is also a key
-            goal of the Eurosystem's retail payment strategy that will benefit
-            both consumers and merchants, allowing for the payment of goods in
-            physical shops, online, and person-to-person transactions. As a
-            result, the Council proposed the regulation on instant credit
+            goal of the Eurosystem&apos;s retail payment strategy that will
+            benefit both consumers and merchants, allowing for the payment of
+            goods in physical shops, online, and person-to-person transactions.
+            As a result, the Council proposed the regulation on instant credit
             transfers in euro to increase their update and accessibility for
             consumers and businesses within the EU and European Economic Area
             countries.
           </p>
           <p>
             One of the aims of the legislation is to enhance the strategic
-            independence of the EU's economic and financial sector by curbing
-            over-dependence on third-party financial institutions and
+            independence of the EU&apos;s economic and financial sector by
+            curbing over-dependence on third-party financial institutions and
             infrastructures. This in turn, will facilitate the mobilization of
             cash flows, resulting in benefits for consumers and businesses while
             enabling the development of innovative value-added services.
@@ -84,8 +85,8 @@ export default function EUPayments() {
           </p>
           <p>
             Additionally, banks and financial service companies must verify the
-            match between IBAN account numbers and the beneficiary's name as
-            soon as possible to prevent possible fraud.
+            match between IBAN account numbers and the beneficiary&apos;s name
+            as soon as possible to prevent possible fraud.
           </p>
 
           <p>
@@ -128,7 +129,7 @@ export default function EUPayments() {
           </p>
           <p>
             The first milestone for payment service providers in the eurozone is
-            nine months after the legislation's enforcement. Assuming it is
+            nine months after the legislation&apos;s enforcement. Assuming it is
             enforced in March 2024, by December 2024, banks must be able to do
             the following:
           </p>
@@ -176,9 +177,9 @@ export default function EUPayments() {
             payments and 39 months to send them and offer verification of
             payees. Payment institutions and e-money organizations have 36
             months to receive and send real-time transfers. To avoid penalties,
-            estimated at 10 percent of bank's turnover, fulfilling the
-            compliance obligations within the legislation's specified time frame
-            is crucial.
+            estimated at 10 percent of bank&apos;s turnover, fulfilling the
+            compliance obligations within the legislation&apos;s specified time
+            frame is crucial.
           </p>
           <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
             What challenges do banks face?
