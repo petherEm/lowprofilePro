@@ -9,7 +9,6 @@ export function Logomark(props: React.ComponentPropsWithoutRef<'svg'>) {
       <defs id="SvgjsDefs5632"></defs>
       <g
         id="SvgjsG5633"
-        featurekey="7KWit6-0"
         transform="matrix(9.189723320158102,0,0,9.189723320158102,-9.189723320158102,-25.793528439970352)"
         fill="#111111"
       >
@@ -22,7 +21,6 @@ export function Logomark(props: React.ComponentPropsWithoutRef<'svg'>) {
       </g>
       <g
         id="SvgjsG5634"
-        featurekey="ewgXDI-0"
         transform="matrix(3.320489969363773,0,0,3.320489969363773,145.61310266958176,-19.45807008047195)"
         fill="#e11d48"
       >
