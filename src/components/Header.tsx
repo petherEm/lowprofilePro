@@ -10,7 +10,13 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
-import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+import {
+  SignedIn,
+  SignedOut,
+  UserButton,
+  SignInButton,
+  SignUpButton,
+} from '@clerk/nextjs'
 
 function MenuIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -122,9 +128,16 @@ export function Header() {
                             <MobileNavLink href="/#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="/login" variant="outline">
-                              Log in
-                            </Button>
+                            <SignedOut>
+                              <SignInButton
+                                mode="modal"
+                                afterSignInUrl="/"
+                                afterSignUpUrl="/"
+                              >
+                                <Button variant="outline">Log in</Button>
+                              </SignInButton>
+                            </SignedOut>
+
                             <Button href="#">Download the app</Button>
                           </div>
                         </Popover.Panel>
@@ -139,20 +152,12 @@ export function Header() {
             </SignedIn>
 
             <SignedOut>
-              <Button
-                href="/login"
-                variant="outline"
-                className="hidden lg:block"
-              >
-                Log in
-              </Button>
-              <Button
-                href="/register"
-                variant="solid"
-                className="hidden lg:block"
-              >
-                Sign up
-              </Button>
+              <SignInButton mode="modal" afterSignInUrl="/" afterSignUpUrl="/">
+                <Button variant="solid">Log in</Button>
+              </SignInButton>
+              <SignUpButton mode="modal" afterSignInUrl="/" afterSignUpUrl="/">
+                <Button variant="outline">Sign Up</Button>
+              </SignUpButton>
             </SignedOut>
           </div>
         </Container>

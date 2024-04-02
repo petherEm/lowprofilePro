@@ -27,14 +27,6 @@ import {
   TupleLogo,
 } from '@/components/StockLogos'
 
-import logoP24 from '@/images/logos/p24.png'
-import wise from '@/images/logos/wise.png'
-import stripe from '@/images/logos/stripe4.png'
-import visa from '@/images/logos/visa.png'
-import mastercard from '@/images/logos/mastercard.png'
-import vercel from '@/images/logos/vercel.png'
-import shopify from '@/images/logos/shopify.png'
-
 const MotionAppScreenHeader = motion(AppScreen.Header)
 const MotionAppScreenBody = motion(AppScreen.Body)
 

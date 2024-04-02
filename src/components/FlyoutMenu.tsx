@@ -47,27 +47,27 @@ const analytics = [
     commingSoon: true,
     icon: MapIcon,
   },
-  {
-    name: 'Security',
-    description: "Your customers' data will be safe and secure",
-    href: '#',
-    commingSoon: true,
-    icon: FingerPrintIcon,
-  },
-  {
-    name: 'Integrations',
-    description: 'Dev tools, API reviews and tutorials in payments',
-    href: '#',
-    commingSoon: true,
-    icon: CodeBracketIcon,
-  },
-  {
-    name: 'Modern Go-To-Market',
-    description: 'Build strategic funnels that will convert',
-    href: '#',
-    commingSoon: true,
-    icon: PresentationChartBarIcon,
-  },
+  // {
+  //   name: 'Security',
+  //   description: "Your customers' data will be safe and secure",
+  //   href: '#',
+  //   commingSoon: true,
+  //   icon: FingerPrintIcon,
+  // },
+  // {
+  //   name: 'Integrations',
+  //   description: 'Dev tools, API reviews and tutorials in payments',
+  //   href: '#',
+  //   commingSoon: true,
+  //   icon: CodeBracketIcon,
+  // },
+  // {
+  //   name: 'Modern Go-To-Market',
+  //   description: 'Build strategic funnels that will convert',
+  //   href: '#',
+  //   commingSoon: true,
+  //   icon: PresentationChartBarIcon,
+  // },
 ]
 const callsToAction = [
   { name: 'Check our blog', href: '#', icon: PlayCircleIcon },
