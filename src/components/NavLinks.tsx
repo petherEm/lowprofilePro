@@ -8,12 +8,13 @@ export function NavLinks() {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
   let timeoutRef = useRef<number | null>(null)
 
+  let docUrl = process.env.NEXT_PUBLIC_DOC_URL
+
   return [
-    ['Features', '/#features'],
-    ['Reviews', '/#reviews'],
-    ['Pricing', '/#pricing'],
-    ['FAQs', '/#faqs'],
+    ['About', '/#features'],
     ['Blog', '/articles'],
+    ['FAQs', '/#faqs'],
+    ['Documentation', docUrl],
   ].map(([label, href], index) => (
     <Link
       key={label}

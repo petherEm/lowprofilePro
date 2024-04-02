@@ -6,6 +6,7 @@ import { Pricing } from '@/components/Pricing'
 const WiseReview = () => {
   return (
     <div>
+      <h1>WISE</h1>
       <PrimaryFeatures />
       <SecondaryFeatures />
       <Pricing />

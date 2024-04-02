@@ -104,18 +104,24 @@ export function Hero() {
       <Container>
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-            <h1 className="text-5xl font-bold tracking-normal text-gray-900">
-              AI in Payments and Remittance. Market insights and{' '}
-              <span className="bg-red-400">dev view on integration.</span>
+            <h1 className="text-5xl font-bold tracking-wide text-gray-900">
+              AI in Payments and Remittance.
+              <span className="bg-[#e11d48] text-white">
+                Dev&apos;s view on integrations <br />
+              </span>{' '}
+              and Market Insights.
             </h1>
-            <p className="mt-6 text-lg text-gray-600">
-              Follow the latest AI trends in payments and remittance markets.
-              Get insights from our deep business and tech analysis. We are
-              always ahead of technology.
+            <p className="mt-6 text-lg text-gray-800">
+              Follow the AI trends in payments and remittance markets. Get
+              insights from our deep business and tech analysis. We are always
+              ahead of technology and experimenting with the latest trends.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <Button href="/" variant="solid">
                 <span className="">Check it out</span>
+              </Button>
+              <Button href="/" variant="outline">
+                <span className="">Contact us</span>
               </Button>
             </div>
           </div>
@@ -129,7 +135,7 @@ export function Hero() {
           </div>
           <div className="relative -mt-4 lg:col-span-7 lg:mt-0 xl:col-span-6">
             <p className="text-center text-sm font-semibold text-gray-900 lg:text-left">
-              As featured in
+              We aim to be featured in
             </p>
             <ul
               role="list"

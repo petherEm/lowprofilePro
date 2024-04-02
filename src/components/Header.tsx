@@ -65,7 +65,7 @@ export function Header() {
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
             </div>
-            <div className="flex items-center gap-x-4">
+            <div className="hidden items-center gap-x-4 md:flex">
               <FlyoutMenu />
               <FlyoutMenu2 />
             </div>
@@ -111,13 +111,13 @@ export function Header() {
                         >
                           <div className="space-y-4">
                             <MobileNavLink href="/#features">
-                              Features
+                              About
                             </MobileNavLink>
                             <MobileNavLink href="/#reviews">
-                              Reviews
+                              <FlyoutMenu />
                             </MobileNavLink>
                             <MobileNavLink href="/#pricing">
-                              Pricing
+                              <FlyoutMenu2 />
                             </MobileNavLink>
                             <MobileNavLink href="/#faqs">FAQs</MobileNavLink>
                           </div>

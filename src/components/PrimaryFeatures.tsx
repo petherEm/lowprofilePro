@@ -27,6 +27,14 @@ import {
   TupleLogo,
 } from '@/components/StockLogos'
 
+import logoP24 from '@/images/logos/p24.png'
+import wise from '@/images/logos/wise.png'
+import stripe from '@/images/logos/stripe4.png'
+import visa from '@/images/logos/visa.png'
+import mastercard from '@/images/logos/mastercard.png'
+import vercel from '@/images/logos/vercel.png'
+import shopify from '@/images/logos/shopify.png'
+
 const MotionAppScreenHeader = motion(AppScreen.Header)
 const MotionAppScreenBody = motion(AppScreen.Body)
 
@@ -37,43 +45,89 @@ interface CustomAnimationProps {
 
 const features = [
   {
-    name: 'Invite friends for better returns',
+    name: 'AI in Payments Testing, Concepts and Innovations',
     description:
-      'For every friend you invite to Pocket, you get insider notifications 5 seconds sooner. And it’s 10 seconds if you invite an insider.',
-    icon: DeviceUserIcon,
-    screen: InviteScreen,
-  },
-  {
-    name: 'Notifications on stock dips',
-    description:
-      'Get a push notification every time we find out something that’s going to lower the share price on your holdings so you can sell before the information hits the public markets.',
+      'Unlocking the Potential of AI: From Theoretical Foundations to Cutting-Edge Applications',
     icon: DeviceNotificationIcon,
     screen: StocksScreen,
   },
   {
-    name: 'Invest what you want',
+    name: 'Deep Market Insights',
     description:
-      'We hide your stock purchases behind thousands of anonymous trading accounts, so suspicious activity can never be traced back to you.',
-    icon: DeviceTouchIcon,
+      'We conduct thorough market analysis to uncover key insights within the payment industry, evaluating both business and technological perspectives.',
+    icon: DeviceChartIcon,
+    screen: InviteScreen,
+  },
+  {
+    name: 'Security in-and-out',
+    description:
+      'Guarding the Gates: Advanced Compliance and Cyber Security Concepts in the Payments and Remittance Sector',
+    icon: DeviceLockIcon,
     screen: InvestScreen,
   },
 ]
 
+function DeviceLockIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
+  return (
+    <svg viewBox="0 0 32 32" aria-hidden="true" {...props}>
+      <circle cx={16} cy={16} r={16} fill="#e11d48" fillOpacity={0.2} />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M5 4a4 4 0 014-4h14a4 4 0 014 4v10h-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 002 2h5v2H9a4 4 0 01-4-4V4z"
+        fill="#e11d48"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M18 19.5a3.5 3.5 0 117 0V22a2 2 0 012 2v6a2 2 0 01-2 2h-7a2 2 0 01-2-2v-6a2 2 0 012-2v-2.5zm2 2.5h3v-2.5a1.5 1.5 0 00-3 0V22z"
+        fill="#e11d48"
+      />
+    </svg>
+  )
+}
+
+function DeviceChartIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
+  return (
+    <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" {...props}>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z"
+        fill="#e11d48"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M23 13.838V26a2 2 0 01-2 2H11a2 2 0 01-2-2V15.65l2.57 3.212a1 1 0 001.38.175L15.4 17.2a1 1 0 011.494.353l1.841 3.681c.399.797 1.562.714 1.843-.13L23 13.837z"
+        fill="#e11d48"
+      />
+      <path
+        d="M10 12h12"
+        stroke="#e11d48"
+        strokeWidth={2}
+        strokeLinecap="square"
+      />
+      <circle cx={16} cy={16} r={16} fill="#e11d48" fillOpacity={0.2} />
+    </svg>
+  )
+}
+
 function DeviceUserIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg viewBox="0 0 32 32" aria-hidden="true" {...props}>
-      <circle cx={16} cy={16} r={16} fill="#A3A3A3" fillOpacity={0.2} />
+      <circle cx={16} cy={16} r={16} fill="#e11d48" fillOpacity={0.2} />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
         d="M16 23a3 3 0 100-6 3 3 0 000 6zm-1 2a4 4 0 00-4 4v1a2 2 0 002 2h6a2 2 0 002-2v-1a4 4 0 00-4-4h-2z"
-        fill="#737373"
+        fill="#e11d48"
       />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
         d="M5 4a4 4 0 014-4h14a4 4 0 014 4v24a4.002 4.002 0 01-3.01 3.877c-.535.136-.99-.325-.99-.877s.474-.98.959-1.244A2 2 0 0025 28V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 001.041 1.756C8.525 30.02 9 30.448 9 31s-.455 1.013-.99.877A4.002 4.002 0 015 28V4z"
-        fill="#A3A3A3"
+        fill="#e11d48"
       />
     </svg>
   )
@@ -82,16 +136,16 @@ function DeviceUserIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 function DeviceNotificationIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg viewBox="0 0 32 32" aria-hidden="true" {...props}>
-      <circle cx={16} cy={16} r={16} fill="#A3A3A3" fillOpacity={0.2} />
+      <circle cx={16} cy={16} r={16} fill="#e11d48" fillOpacity={0.2} />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
         d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z"
-        fill="#A3A3A3"
+        fill="#e11d48"
       />
       <path
         d="M9 8a2 2 0 012-2h10a2 2 0 012 2v2a2 2 0 01-2 2H11a2 2 0 01-2-2V8z"
-        fill="#737373"
+        fill="#e11d48"
       />
     </svg>
   )
@@ -111,16 +165,16 @@ function DeviceTouchIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
           y2={17}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#737373" />
-          <stop offset={1} stopColor="#D4D4D4" stopOpacity={0} />
+          <stop stopColor="#e11d48" />
+          <stop offset={1} stopColor="#e11d48" stopOpacity={0} />
         </linearGradient>
       </defs>
-      <circle cx={16} cy={16} r={16} fill="#A3A3A3" fillOpacity={0.2} />
+      <circle cx={16} cy={16} r={16} fill="#e11d48" fillOpacity={0.2} />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
         d="M5 4a4 4 0 014-4h14a4 4 0 014 4v13h-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 002 2h4v2H9a4 4 0 01-4-4V4z"
-        fill="#A3A3A3"
+        fill="#e11d48"
       />
       <path
         d="M7 22c0-4.694 3.5-8 8-8"
@@ -131,7 +185,7 @@ function DeviceTouchIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
       />
       <path
         d="M21 20l.217-5.513a1.431 1.431 0 00-2.85-.226L17.5 21.5l-1.51-1.51a2.107 2.107 0 00-2.98 0 .024.024 0 00-.005.024l3.083 9.25A4 4 0 0019.883 32H25a4 4 0 004-4v-5a3 3 0 00-3-3h-5z"
-        fill="#A3A3A3"
+        fill="#e11d48"
       />
     </svg>
   )
@@ -217,7 +271,7 @@ function InviteScreen(props: ScreenProps) {
               </div>
             ))}
           </div>
-          <div className="mt-6 rounded-lg bg-cyan-500 px-3 py-2 text-center text-sm font-semibold text-white">
+          <div className="mt-6 rounded-lg bg-[#e11d48] px-3 py-2 text-center text-sm font-semibold text-white">
             Invite person
           </div>
         </div>
@@ -230,8 +284,8 @@ function StocksScreen(props: ScreenProps) {
   return (
     <AppScreen className="w-full">
       <MotionAppScreenHeader {...(props.animated ? headerAnimation : {})}>
-        <AppScreen.Title>Stocks</AppScreen.Title>
-        <AppScreen.Subtitle>March 9, 2022</AppScreen.Subtitle>
+        <AppScreen.Title>Valuation</AppScreen.Title>
+        <AppScreen.Subtitle>Today</AppScreen.Subtitle>
       </MotionAppScreenHeader>
       <MotionAppScreenBody
         {...(props.animated ? { ...bodyAnimation, custom: props.custom } : {})}
@@ -239,28 +293,28 @@ function StocksScreen(props: ScreenProps) {
         <div className="divide-y divide-gray-100">
           {[
             {
-              name: 'Laravel',
+              name: 'Western Union',
               price: '4,098.01',
               change: '+4.98%',
               color: '#F9322C',
               logo: LaravelLogo,
             },
             {
-              name: 'Tuple',
+              name: 'Wise',
               price: '5,451.10',
               change: '-3.38%',
               color: '#5A67D8',
               logo: TupleLogo,
             },
             {
-              name: 'Transistor',
+              name: 'Stripe',
               price: '4,098.41',
               change: '+6.25%',
               color: '#2A5B94',
               logo: TransistorLogo,
             },
             {
-              name: 'Diageo',
+              name: 'P24',
               price: '250.65',
               change: '+1.25%',
               color: '#3320A7',
@@ -332,7 +386,7 @@ function InvestScreen(props: ScreenProps) {
   return (
     <AppScreen className="w-full">
       <MotionAppScreenHeader {...(props.animated ? headerAnimation : {})}>
-        <AppScreen.Title>Buy $LA</AppScreen.Title>
+        <AppScreen.Title>Explore it</AppScreen.Title>
         <AppScreen.Subtitle>
           <span className="text-white">$34.28</span> per share
         </AppScreen.Subtitle>
@@ -373,7 +427,7 @@ function InvestScreen(props: ScreenProps) {
                 </div>
               </div>
             ))}
-            <div className="rounded-lg bg-cyan-500 px-3 py-2 text-center text-sm font-semibold text-white">
+            <div className="rounded-lg bg-[#e11d48] px-3 py-2 text-center text-sm font-semibold text-white">
               Buy shares
             </div>
           </div>
@@ -578,13 +632,16 @@ export function PrimaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h2 className="text-3xl font-medium tracking-tight text-white">
-            Every feature you need to win. Try it for yourself.
+            We Test and Explain Payment Tech, and Provide Market Insights
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            Pocket was built for investors like you who play by their own rules
-            and aren’t going to let SEC regulations get in the way of their
-            dreams. If other investing tools are afraid to build it, Pocket has
-            it.
+            We are a seasoned team with deep expertise in Payments, Remittance,
+            and Banking, passionately exploring and experimenting with the
+            latest trends in payment technology and the integration of AI across
+            various payment system components. With years of experience in
+            compliance and cybersecurity, we possess a comprehensive
+            understanding of the laws and regulations governing the industry,
+            ensuring our innovations are both groundbreaking and secure.
           </p>
         </div>
       </Container>

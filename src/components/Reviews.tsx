@@ -282,10 +282,11 @@ export function Reviews() {
           id="reviews-title"
           className="text-3xl font-medium tracking-tight text-gray-900 sm:text-center"
         >
-          Everyone is changing their life with Pocket.
+          Is AI truly changing the Payments landscape?
         </h2>
         <p className="mt-2 text-lg text-gray-600 sm:text-center">
-          Thousands of people have doubled their net-worth in the last 30 days.
+          Get key insights from market experts, academics and people around
+          payments and remittance industry.
         </p>
         <ReviewGrid />
       </Container>
