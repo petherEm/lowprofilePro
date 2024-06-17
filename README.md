@@ -1,35 +1,34 @@
-# Pocket
+<div>
+  <div>
+    <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Next_._JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-Clerk-black?style=for-the-badge&logoColor=white&logo=Clerk&color=412991" alt="openai" />
 
-Pocket is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+  </div>
 
-## Getting started
+  <h3 align="center">Payloq.com - AI in payments - Tech Review</h3>
 
-To get started with this template, first install the npm dependencies:
+</div>
 
-```bash
-npm install
-```
+## <a name="introduction">🤖 Introduction</a>
 
-Next, run the development server:
+This is a codebase for the commercial project [Payloq.com](https://payloq.com). With Payloq you can follow the AI trends in payments and remittance markets. Get insights from our deep business and tech analysis. We are always ahead of technology and experimenting with the latest trends. We are a seasoned team with deep expertise in Payments, Remittance, and Banking, passionately exploring and experimenting with the latest trends in payment technology and the integration of AI across various payment system components. With years of experience in compliance and cybersecurity, we possess a comprehensive understanding of the laws and regulations governing the industry, ensuring our innovations are both groundbreaking and secure.
 
-```bash
-npm run dev
-```
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+- Next.js
+- TypeScript
+- OpenAI
+- Tailwind CSS
+- Clerk
 
-## Customizing
+## <a name="features">🔋 Features</a>
 
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+👉 **Robust Authentication**: Secure and reliable user registration and login system with **Clerk**.
 
-## License
+👉 **Optimizied caching**: The optimized use of Next.js caching system.
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+👉 **Full modern e-commerce functionalities**: In development: Country/language detection, user login, guest flow, different currencies, different payment methods and many more.
 
-## Learn more
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+👉 **SEO Optimized**: The project is optimized for SEO with the use of Next.js metadata.
